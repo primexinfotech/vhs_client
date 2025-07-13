@@ -1,1 +1,0 @@
-D:\ReactApp\VHS\vhs.client\obj\Debug\vhs.client.esproj.CoreCompileInputs.cache

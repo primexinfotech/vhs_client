@@ -1,0 +1,137 @@
+.ticket-btn {
+    position: relative;
+    display: inline-flex;
+    vertical-align: middle;
+    flex-shrink: 0;
+}
+
+    .ticket-btn a {
+        font-size: 0.8rem;
+        height: 31px;
+        border-radius: 15px;
+        font-weight: 500;
+        background: #363070;
+        color: #fff;
+        padding: 5px 15px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+    }
+
+.list-item-section {
+    margin-bottom: 18px;
+}
+
+.root-heading h6 {
+    margin: 0px;
+    font-size: 11px;
+    line-height: 1.57;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 700;
+    color: #2A3547;
+    width: 240px;
+}
+
+.root-heading .tw-text-sm {
+    margin: 0px;
+    font-size: 12px;
+    line-height: 1.57;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 500;
+    color: #2A3547;
+    width: 240px;
+}
+
+.dropdown-btn {
+    font-size: 0.8rem;
+    height: 31px;
+    border-radius: 15px;
+    font-weight: 500;
+    background: #0a7ea4;
+    color: #fff;
+    padding: 5px 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.outline-btn1 {
+    background: #fff;
+    border-radius: 15px 0 0 15px;
+    border: 1px solid #0a7ea4;
+    color: #000;
+}
+
+.outline-btn2 {
+    border-radius: 0px 15px 15px 0px;
+}
+
+.root-icon {
+    width: 45px;
+    height: 45px;
+    background-color: rgb(242, 246, 250);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    flex-shrink: 0;
+    border-radius: 12px;
+}
+
+.dropdown-box {
+    overflow-y: scroll;
+    max-height: 480px;
+    overflow-x: hidden;
+}
+
+.jaipur-mel {
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.4375em;
+    color: rgb(42, 53, 71);
+    box-sizing: border-box;
+    cursor: text;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+    position: relative;
+    border-radius: 18px;
+    height: 40px;
+    border-radius: 12px;
+    padding: 0px !important;
+}
+
+.TextField-root input:focus,
+.TextField-root select:focus {
+    outline: none;
+    --tw-ring-color: none;
+}
+
+.OutlinedInput {
+    flex-grow: 1;
+    background: none;
+    height: 37px;
+    padding: 10px 5px !important;
+    margin: 0px;
+    display: block;
+    min-width: 0px;
+    width: 100%;
+    animation-duration: 10ms;
+    border: 1px solid rgb(223, 229, 239);
+    border-radius: 0px 30px 30px 0px;
+    width: 100%;
+    min-width: 30px;
+}
+
+.item-list{
+    font-size: 12px;
+}
+
+.jaipur-mel select {
+    border-radius: 30px 0 0 30px;
+    background: #eaeff4;
+}

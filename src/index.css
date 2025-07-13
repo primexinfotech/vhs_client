@@ -1,0 +1,304 @@
+@import "tailwindcss";
+
+:root {
+    --first_theme: #5a8dee;
+    --second_color: #5a8dee;
+    --third_color: #e5edfc;
+    --font-family: 'IBM Plex Sans', sans-serif;
+}
+
+body.light {
+    --dark: #5a8dee;
+    --main-color: #000;
+    --main-bg-color: #fff;
+    --pannel-bg-color: #2d6da5c4;
+    --main-bg-light: #e4e4e4;
+    --color-header: #000;
+    --background-body: #f3f4f4;
+    --field: #fff;
+    --main-table-header: #f9fbfd;
+    --background: #fff;
+    --light-text: #516377;
+    --shadow: 0 2px 14px rgba(38,60,85,.16);
+    --light-background: #e4e4e4;
+    --border-color: #ddd2d2;
+    --btn-shadow: 0 0.125rem 0.25rem rgba(147,158,170,.4);
+    --text: #414141;
+    --text-dark: #000;
+    --blue: blue;
+    --placeholder: #c5c5c5;
+    --disabled: #e9ecef;
+    --table-hover: #fee77f66;
+    --disabled-text: #838383;
+    --active: #e5edfc;
+    --active2: #e5edfc;
+    --arrow: url(../public/images/angle-down-solid.svg);
+    --loader-backgroud: rgba(0,0,0,.4);
+    --first_theme: #5a8dee;
+    --second_color: #5a8dee;
+    --third_color: #e5edfc;
+    --font-family: 'IBM Plex Sans', sans-serif;
+    --select_input_focus_bgcolor: #fee7c8;
+    --autocomplete_bgcolor: #e5edfc;
+    --link-color: #414141;
+    --treeHead: blanchedalmond;
+}
+
+body.dark {
+    --dark: #5792ff;
+    --main-bg-color: #16181d;
+    --pannel-bg-color: #16181d;
+    --main-color: #d3d3d3;
+    --main-bg-light: #333a45;
+    --color-header: #d3d3d3;
+    --background-body: #16181d;
+    --field: #333a45;
+    --main-table-header: #333a45;
+    --background: #23272f;
+    --light-text: #d3d3d3;
+    --shadow: 0px 0px 12px #000000;
+    --light-background: #333a45;
+    --border-color: #595959;
+    --btn-shadow: 0 0.125rem 0.25rem rgba(38,60,85,.16);
+    --text: #fff;
+    --text-dark: #000;
+    --blue: #5a8dee;
+    --placeholder: #c5c5c5;
+    --disabled: #494949;
+    --table-hover: #37d32c;
+    --disabled-text: #b3b3b3;
+    --active: #333a45;
+    --active2: #23272f;
+    --arrow: url(../public/images/angle-down-solid-white.svg);
+    --loader-backgroud: rgb(0 0 0 / 70%);
+    --first_theme: #5a8dee;
+    --second_color: #5a8dee;
+    --third_color: #e5edfc;
+    --font-family: 'IBM Plex Sans', sans-serif;
+    --select_input_focus_bgcolor: #145254;
+    --autocomplete_bgcolor: #6d8ecd42;
+    --link-color: #ad8484;
+    --treeHead: #c7af8d;
+}
+
+body.colorTheme1 {
+    --main-bg-color: #252B48;
+    --pannel-bg-color: #252B48;
+    --main-bg-light: #445069;
+    --main-color: #fff;
+    --color-header: #fff;
+    --dark: #5a8dee;
+    --background-body: #f3f4f4;
+    --field: #fff;
+    --main-table-header: #f9fbfd;
+    --background: #fff;
+    --light-text: #516377;
+    --shadow: 0 2px 14px rgba(38,60,85,.16);
+    --light-background: #e4e4e4;
+    --border-color: #ddd2d2;
+    --btn-shadow: 0 0.125rem 0.25rem rgba(147,158,170,.4);
+    --text: #000;
+    --text-dark: #000;
+    --blue: #ffc107;
+    --placeholder: #c5c5c5;
+    --disabled: #e9ecef;
+    --table-hover: #fee77f66;
+    --disabled-text: #838383;
+    --active: #e5edfc;
+    --active2: #e5edfc;
+    --arrow: url(../public/images/angle-down-solid.svg);
+    --loader-backgroud: rgba(0,0,0,.4);
+    --first_theme: #252B48;
+    --second_color: #5a8dee;
+    --third_color: #e5edfc;
+    --font-family: 'IBM Plex Sans', sans-serif;
+    --select_input_focus_bgcolor: #fee7c8;
+    --autocomplete_bgcolor: #233fcb14;
+    --link-color: #414141;
+    --treeHead: blanchedalmond;
+}
+
+body.colorTheme2 {
+    --main-bg-color: #af1763;
+    --pannel-bg-color: #af1763;
+    --main-bg-light: #7e1048;
+    --main-color: #fff;
+    --color-header: #fff;
+    --dark: #5a8dee;
+    --background-body: #f3f4f4;
+    --field: #fff;
+    --main-table-header: #f9fbfd;
+    --background: #fff;
+    --light-text: #516377;
+    --shadow: 0 2px 14px rgba(38,60,85,.16);
+    --light-background: #e4e4e4;
+    --border-color: #ddd2d2;
+    --btn-shadow: 0 0.125rem 0.25rem rgba(147,158,170,.4);
+    --text: #000;
+    --text-dark: #000;
+    --blue: #ffc107;
+    --placeholder: #c5c5c5;
+    --disabled: #e9ecef;
+    --table-hover: #fee77f66;
+    --disabled-text: #838383;
+    --active: #e5edfc;
+    --active2: #e5edfc;
+    --arrow: url(../public/images/angle-down-solid.svg);
+    --loader-backgroud: rgba(0,0,0,.4);
+    --first_theme: #af1763;
+    --second_color: #5a8dee;
+    --third_color: #e5edfc;
+    --font-family: 'IBM Plex Sans', sans-serif;
+    --select_input_focus_bgcolor: #fee7c8;
+    --autocomplete_bgcolor: #af17630f;
+    --link-color: #414141;
+    --treeHead: blanchedalmond;
+}
+
+body.colorTheme3 {
+    --main-bg-color: #1a55e3;
+    --pannel-bg-color: #1a55e3;
+    --main-bg-light: #183fa3;
+    --main-color: #fff;
+    --color-header: #fff;
+    --dark: #5a8dee;
+    --background-body: #f3f4f4;
+    --field: #fff;
+    --main-table-header: #f9fbfd;
+    --background: #fff;
+    --light-text: #516377;
+    --shadow: 0 2px 14px rgba(38,60,85,.16);
+    --light-background: #e4e4e4;
+    --border-color: #ddd2d2;
+    --btn-shadow: 0 0.125rem 0.25rem rgba(147,158,170,.4);
+    --text: #000;
+    --text-dark: #000;
+    --blue: #ffc107;
+    --placeholder: #c5c5c5;
+    --disabled: #e9ecef;
+    --table-hover: #fee77f66;
+    --disabled-text: #838383;
+    --active: #e5edfc;
+    --active2: #e5edfc;
+    --arrow: url(../public/images/angle-down-solid.svg);
+    --loader-backgroud: rgba(0,0,0,.4);
+    --first_theme: #1a55e3;
+    --second_color: #5a8dee;
+    --third_color: #e5edfc;
+    --font-family: 'IBM Plex Sans', sans-serif;
+    --select_input_focus_bgcolor: #fee7c8;
+    --autocomplete_bgcolor: #1a55e312;
+    --link-color: #414141;
+    --treeHead: blanchedalmond;
+}
+
+body {
+    color: var(--text);
+    background: var(--background-body);
+    padding: 0;
+    margin: 0;
+}
+
+.form-control {
+    padding: 0rem !important
+}
+
+.common-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    overflow: hidden;
+}
+
+    .common-table td, .common-table th {
+        border-top: 1px solid #ecf0f1;
+        padding: 5px;
+    }
+
+    .common-table td {
+        border-left: 1px solid #ecf0f1;
+        border-right: 1px solid #ecf0f1;
+        white-space: nowrap;
+    }
+
+    .common-table th {
+        background-color: #333333;
+        color: #fff;
+        font-size: 15px;
+        font-weight: 500;
+        white-space: nowrap;
+    }
+
+    .common-table tr:nth-of-type(even) td {
+        background-color: #ececec;
+    }
+
+    .common-table .total th {
+        background-color: white;
+    }
+
+table .total td {
+    text-align: right;
+    font-weight: 700;
+}
+
+
+
+.main_links li .active {
+    background-color: #333;
+    color: #fff;
+}
+
+.child_links li .active {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+input:focus, select:focus {
+    border: 1px solid #3b82f6 !important;
+}
+
+/*........React Date Picker........*/
+.react-datepicker-wrapper {
+    width: 100% !important;
+}
+
+/*........MUI Auto Complete........*/
+.MuiInputBase-root {
+    padding: 0px !important;
+    border-radius: 8px !important;
+    border-color: #dee2e6 !important;
+}
+
+    .MuiInputBase-root input {
+        border: 0 !important;
+    }
+
+    .MuiInputBase-root:hover fieldset {
+        border-color: #dee2e6 !important;
+    }
+
+.MuiOutlinedInput-root .MuiAutocomplete-input {
+    display: block;
+    width: 100%;
+    border-radius: 0.5rem; /* rounded-lg */
+    border-color: #dee2e6 !important;
+    font-family: "Josefin Sans", serif;
+    background-color: #F9FAFB; /* bg-gray-50 */
+    padding: 0.625rem 0.625rem !important; /* px-2.5 py-1.5 */
+    font-size: 0.875rem; /* text-sm */
+    color: #111827; /* text-gray-900 */
+    transition: border-color 0.3s, box-shadow 0.3s; /* for smooth focus transitions */
+}
+
+
+@media (min-width: 1536px) { /* 2xl breakpoint */
+    .MuiInputBase-root input {
+        padding: 0.625rem 1.25rem; /* 2xl:py-2.5 2xl:px-2.5 */
+    }
+}
+
+.MuiAutocomplete-root .Mui-focused fieldset {
+    border-color: #3b82f6 !important;
+    border-width: 1px !important;
+}
